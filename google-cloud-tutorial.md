@@ -2,9 +2,10 @@
 layout: page
 title: Google Cloud Tutorial
 permalink: /gce-tutorial/
+hello
 ---
 
-# Google Cloud Tutorial #
+# Google Cloud Tutorial
 
 ## BEFORE WE BEGIN ## 
 ### BIG REMINDER: Make sure you stop your instances! ###
