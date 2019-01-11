@@ -91,7 +91,7 @@ You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button a
   <img src='/screenshot/reopen jupyter.png'>
   </div>
  
-- **How to transger files between local computer and vm instance?**
+- **How to transfer files between local computer and vm instance?**
 
   The transfer works in both directions through Jupyter Notebook.
   <div class='fig figcenter fighighlight'>
