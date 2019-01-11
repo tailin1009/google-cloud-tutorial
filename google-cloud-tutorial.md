@@ -97,14 +97,7 @@ You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button a
   <div class='fig figcenter fighighlight'>
   <img src='/screenshot/transfer files.png'>
   </div>
-  
-
-```
-gcloud compute scp /my/local/file user@ip:/home/shared/
-```
-
-Another (perhaps easier) option proposed by a student is to directly download the zip file from Jupyter. You can download that file directly from Jupyter. To do this, go to Jupyter Notebook and click on the zip file, which will be downloaded to your local computer. 
-
+ 
 ## BIG REMINDER: Make sure you stop your instances! ##
 
 Don't forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances). You can restart your instance and the downloaded software will still be available. 
