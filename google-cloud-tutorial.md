@@ -2,7 +2,7 @@
 layout: page
 title: Google Cloud Tutorial
 permalink: /gce-tutorial/
-hello
+
 ---
 
 # Google Cloud Tutorial
@@ -16,18 +16,17 @@ Don't forget to ***stop your instance*** when you are done (by clicking on the s
 If you follow our instructions below correctly, you should be able to restart your instance and the downloaded software will still be available.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/sadpuppy_nocredits.png'>
+  <img src='/screenshot/1.png'>
 </div>
 
 
 ## Create and Configure Your Account ##
 
-For the class project and assignments, we offer an option to use Google Compute Engine for developing and testing your 
-implementations. This tutorial lists the necessary steps of working on the assignments using Google Cloud. **We expect this tutorial to take about an hour. Don't get intimidated by the steps, we tried to make the tutorial detailed so that you are less likely to get stuck on a particular step. Please tag all questions related to Google Cloud with google_cloud on Piazza.**
+Google Cloud Compute Engine is an option for developing and testing your implementations. This tutorial lists the necessary steps of working on machine learning tasks using Google Cloud. **I expect this tutorial to take about 10 minutes.**
 
-This tutorial goes through how to set up your own Google Compute Engine (GCE) instance to work on the assignments. Each student will have $100 in credit throughout the quarter. When you sign up for the first time, you also receive $300 credits from Google by default. Please try to use the resources judiciously. But if $100 ends up not being enough, we will try to adjust this number as the quarter goes on.
+This tutorial goes through how to set up a basic Google Compute Engine (GCE) instance to work on common machine learning tasks. When you sign up for the first time, you will receive $300(230 pounds) credits from Google by default. Please try to use the resources judiciously.
 
-First, if you don't have a Google Cloud account already, create one by going to the [Google Cloud homepage](https://cloud.google.com/?utm_source=google&utm_medium=cpc&utm_campaign=2015-q2-cloud-na-gcp-skws-freetrial-en&gclid=CP2e4PPpiNMCFU9bfgodGHsA1A "Title") and clicking on **Compute**. When you get to the next page, click on the blue **TRY IT FREE** button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account. 
+First, if you don't have a Google Cloud account already, create one by going to the [Google Cloud homepage](https://cloud.google.com/) and clicking on **Compute**. When you get to the next page, click on the blue **TRY IT FREE** button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account. 
 
 <div class='fig figcenter fighighlight'>
   <img src='/assets/cloud-launching-screen.png'>
