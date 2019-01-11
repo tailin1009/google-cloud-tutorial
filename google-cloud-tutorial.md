@@ -78,7 +78,7 @@ Click on the blue **Deploy** button at the bottom of the page. You should have n
 
 You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button and  type the **Jupyter Notebook password**.
 
-**Note**:
+**Common Questions**:
 
 - **How to stop this instance?** Search **VM Instances** in the searching box, then click **stop**. You can click **start** to restart it.
   
@@ -91,30 +91,13 @@ You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button a
   <img src='/screenshot/reopen jupyter.png'>
   </div>
  
+- **How to transger files between local computer and vm instance?**
 
-## Connect to Your Virtual Instance ##
-
-
-## First time setup ##
-
-
-## Submission: Transferring Files From Your Instance To Your Computer ##
-
-When you are done with your tasls, 
-
-Once you create the zip file, e.g. `task1.zip`, you will transfer the file from GCE instance to your local laptop. There is an [easy command](https://cloud.google.com/sdk/gcloud/reference/compute/scp) for this purpose:
-
-```
-gcloud compute scp <user>@<instance-name>:/path/to/task1.zip /local/path
-```
-
-For example, to download files from our instance to the current folder:
-
-```
-gcloud compute scp user@ip:/home/shared/task1.zip .
-```
-
-The transfer works in both directions. To upload a file to GCE:
+  The transfer works in both directions through Jupyter Notebook.
+  <div class='fig figcenter fighighlight'>
+  <img src='/screenshot/transfer files.png'>
+  </div>
+  
 
 ```
 gcloud compute scp /my/local/file user@ip:/home/shared/
