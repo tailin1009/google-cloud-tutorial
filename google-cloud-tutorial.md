@@ -36,7 +36,7 @@ Select the option **United Kingdom** and click blue **Agree and continue** butto
 Once you have entered the required information, press the blue **Start my free trial** button. You will be greeted by a page like this: 
 
 <div class='fig figcenter fighighlight'>
-    <img src='/screenshot/welcome page.png'>
+    <img src='/screenshot/welcome.png'>
 </div>
 
 Press the "Google Cloud Platform" (in red circle), and it will take you to the main dashboard:
