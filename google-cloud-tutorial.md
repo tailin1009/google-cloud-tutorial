@@ -68,7 +68,7 @@ Then click the blue **LAUNCH ON COMPUTE ENGINE** button, this will take you to a
   <img src='/screenshot/deploy.png'>
 </div>
 
-Because this is a GPU version instance, make sure that the **Zone** have avaliable GPU instances!!!**.
+**Because this is a GPU version instance, make sure that the **Zone** have avaliable GPU instances!!!**.
 
 Click on the blue **Deploy** button at the bottom of the page. You should have now successfully created a Google Compute Instance, it might take a few minutes to start running. When the instance is ready, your screen should look something like the one below.
 
