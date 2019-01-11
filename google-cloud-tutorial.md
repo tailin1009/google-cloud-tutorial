@@ -15,11 +15,6 @@ Don't forget to ***stop your instance*** when you are done (by clicking on the s
 
 If you follow our instructions below correctly, you should be able to restart your instance and the downloaded software will still be available.
 
-<div class='fig figcenter fighighlight'>
-  <img src='/screenshot/1.png'>
-</div>
-
-
 ## Create and Configure Your Account ##
 
 Google Cloud Compute Engine is an option for developing and testing your implementations. This tutorial lists the necessary steps of working on machine learning tasks using Google Cloud. **I expect this tutorial to take about 10 minutes.**
