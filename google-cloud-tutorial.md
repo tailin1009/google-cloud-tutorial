@@ -86,7 +86,10 @@ You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button a
   <img src='/screenshot/stop instances.png'>
   </div>
 
-- **How to reopen Jupyter Notebook in my browser?** You need start the instance first, then search **Deployment Manager** in the searching box. And then click the **tensorflow-python-cuda-minilab-1**, you will find out what to do next. 
+- **How to reopen Jupyter Notebook in my browser?** You need start the instance first, then search **Deployment Manager** in the searching box. And then click the "**tensorflow-python-cuda-minilab-1**"", you will find out what to do next. 
+  <div class='fig figcenter fighighlight'>
+  <img src='/screenshot/reopen jupyter.png'>
+  </div>
  
 
 ## Connect to Your Virtual Instance ##
