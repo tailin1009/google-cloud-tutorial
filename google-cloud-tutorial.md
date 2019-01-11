@@ -26,10 +26,11 @@ Google Cloud Compute Engine is an option for developing and testing your impleme
 
 This tutorial goes through how to set up a basic Google Compute Engine (GCE) instance to work on common machine learning tasks. When you sign up for the first time, you will receive $300(230 pounds) credits from Google by default. Please try to use the resources judiciously.
 
-First, if you don't have a Google Cloud account already, create one by going to the [Google Cloud homepage](https://cloud.google.com/) and clicking on **Compute**. When you get to the next page, click on the blue **TRY IT FREE** button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account. 
+First, if you don't have a Google Cloud account already, create one by going to the [Google Cloud homepage](https://cloud.google.com/). When you get to the next page, click on the blue **TRY IT FREE** button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account. 
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-launching-screen.png'>
+  <img src='/screenshot/step1.png'>
+  <img src='/screenshot/step2.png'>
 </div>
 
 Click the appropriate **yes** or **no** button for the first option, and check **yes** for the second option after you have read the required agreements. Press the blue **Agree and continue** button to continue to the next page to enter the requested information (your name, billing address and credit card information). Remember to select "**Individual**" as "Account Type":
