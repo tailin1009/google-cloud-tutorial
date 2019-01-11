@@ -36,64 +36,50 @@ Select the option **United Kingdom** and click blue **Agree and continue** butto
 Once you have entered the required information, press the blue **Start my free trial** button. You will be greeted by a page like this: 
 
 <div class='fig figcenter fighighlight'>
-    <img src='/screenshot/welcom.png'>
-</div>
-
-Press the "Google Cloud Platform" (in red circle), and it will take you to the main dashboard:
-
-<div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-dashboard-screen.png'>
+    <img src='/screenshot/GCP DASHABOARD.png'>
 </div>
 
 To change the name of your project, click on [**Go to project settings**](console.cloud.google.com/iam-admin/settings/project) under the **Project info** section.
 
-## Create an image from our provided disk ##
-
-For all assignments and the final project, we provide you with a pre-configured disk that contains the necessary environment and deep learning frameworks. To use our disk, you first need to create your own custom image using our file, and use this custom image as the boot disk for your new VM instance.  
-
-Go to **Compute Engine**, then **Images** and click on the blue **Create Image** button at the top of the page. See the screenshot below.
-
-<div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-create-image.png'>
-</div>
-
-Enter your preferred name in the **Name** field. Mine is called **cs231n-image**. Select **Cloud Storage file** for **Source**, enter **cs231n-repo/deep-ubuntu.tar.gz** and click on the blue **Create** button. See the screenshot below. It will take a few minutes for your image to be created (about 10-15 in our experience, though your mileage may vary). 
-
-<div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-config-image.png'>
-</div>
-
 ## Launch a Virtual Instance ##
 
 To launch a virtual instance, go to the **Compute Engine** menu on the left column of your dashboard and click on **VM instances**. 
-
-Then click on the blue **Create** button on the next page. This will take you to a page that looks like the screenshot below. **(NOTE: Please carefully read the instructions in addition to looking at the screenshots. The instructions tell you exactly what values to fill in).**
-
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-create-instance.png'>
+  <img src='/screenshot/vm instance.png'>
+  <img src='/screenshot/create.png'> 
 </div>
 
-Make sure that the Zone is set to be **us-west1-b** (especially for assignments where you need to use GPU instances). Under **Machine type** pick the **8 vCPUs** option. Click on the **customize** button under **Machine type** and make sure that the number of cores is set to 8 and the number of GPUs is set to **None** (we will not be using GPUs in assignment 1. GPU will be covered later in this tutorial). 
-
-Click on the **Change** button under **Boot disk**, choose **Custom images**, you will see this screen:
+Then click on the blue **Create** button on the next page. This will take you to a page that looks like the screenshot below.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-select-image.png'>
+  <img src='/screenshot/marketplace.png'>
 </div>
 
-Select the image you created in the previous step, here it's **cs231n-image**. Also increase the boot disk size as you see fit. Click **Select** and you will get back to the "create instance" screen.
+Click the **Marketplace**, do as the bellow screenshot shows:
 
-Check **Allow HTTP traffic** and **Allow HTTPS traffic**. Expand the **Management, disks, networking, SSH keys** menu if it isn't visible, select **Disks** tab, and uncheck **Delete boot disk when instance is deleted**.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-check-https.png'>
+  <img src='/screenshot/AISE.png'>
 </div>
 
-Click on the blue **Create** button at the bottom of the page. You should have now successfully created a Google Compute Instance, it might take a few minutes to start running. When the instance is ready, your screen should look something like the one below. When you want to stop running the instance, click on the blue stop button above. 
+Then click the blue **LAUNCH ON COMPUTE ENGINE** button, this will take you to a page looks like the screenshot below.**(NOTE: Please carefully read the instructions in addition to looking at the screenshots. The instructions tell you exactly what values to fill in).** 
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/cloud-instance-started.png'>
+  <img src='/screenshot/deploy.png'>
 </div>
+
+Because this is a GPU version instance, make sure that the **Zone** have avaliable GPU instances!!!**.
+
+Click on the blue **Deploy** button at the bottom of the page. You should have now successfully created a Google Compute Instance, it might take a few minutes to start running. When the instance is ready, your screen should look something like the one below.
+
+<div class='fig figcenter fighighlight'>
+  <img src='/screenshot/ssh-jupyternotebook.png'>
+</div>
+
+You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button and  type the **Jupyter Notebook password**.
+
+**Note**:
+- Stop your instance: Go to your **VM Instances** and click **stop**.
 
 Take note of your instance name, you will need it to ssh from your laptop. 
 
