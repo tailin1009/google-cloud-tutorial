@@ -79,9 +79,15 @@ Click on the blue **Deploy** button at the bottom of the page. You should have n
 You can use Jupyter Notebook by clicking blue **Open Jupyter Notebook** button and  type the **Jupyter Notebook password**.
 
 **Note**:
-- Stop your instance: Go to your **VM Instances** and click **stop**.
 
-Take note of your instance name, you will need it to ssh from your laptop. 
+- **How to stop this instance?** Search **VM Instances** in the searching box, then click **stop**. You can click **start** to restart it.
+  
+  <div class='fig figcenter fighighlight'>
+  <img src='/screenshot/stop instances.png'>
+  </div>
+
+- **How to reopen Jupyter Notebook in my browser?** You need start the instance first, then search **Deployment Manager** in the searching box. And then click the **tensorflow-python-cuda-minilab-1**, you will find out what to do next. 
+ 
 
 ## Connect to Your Virtual Instance ##
 
