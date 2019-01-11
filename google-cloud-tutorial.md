@@ -2,7 +2,7 @@
 layout: page
 title: Google Cloud Tutorial
 permalink: /gce-tutorial/
-hello
+
 ---
 
 # Google Cloud Tutorial
@@ -16,7 +16,7 @@ Don't forget to ***stop your instance*** when you are done (by clicking on the s
 If you follow our instructions below correctly, you should be able to restart your instance and the downloaded software will still be available.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/sadpuppy_nocredits.png'>
+  <img src='/screenshot/1.png'>
 </div>
 
 
